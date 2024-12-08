@@ -14,10 +14,12 @@
 */
 
 function panic(str) {
-    str.toUpperCase();
-    const arr = str.split(' ');
-    str = arr.join(' 😱 ');
-    return str;
+    // str.toUpperCase();
+    // const arr = str.split(' ');
+    // str = arr.join(' 😱 ');
+    // return str;
+
+    return str.split(' ').join(' 😱 ').toUpperCase();
 }
 
 console.log(panic("I'm almost out of coffee")); 
